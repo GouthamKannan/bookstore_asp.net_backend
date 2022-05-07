@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BookStoreModelStoreContainer" CdmEntityContainer="BookStoreEntities">
+    <EntitySetMapping Name="orders">
+      <EntityTypeMapping TypeName="BookStoreModel.order">
+        <MappingFragment StoreEntitySet="orders">
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="user_name" ColumnName="user_name" />
+          <ScalarProperty Name="cart" ColumnName="cart" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="products">
+      <EntityTypeMapping TypeName="BookStoreModel.product">
+        <MappingFragment StoreEntitySet="products">
+          <ScalarProperty Name="author" ColumnName="author" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="image" ColumnName="image" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="BookStoreModel.user">
+        <MappingFragment StoreEntitySet="users">
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="jwt_token" ColumnName="jwt_token" />
+          <ScalarProperty Name="reset_code" ColumnName="reset_code" />
+          <ScalarProperty Name="user_name" ColumnName="user_name" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="ver_code" ColumnName="ver_code" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
