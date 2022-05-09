@@ -2,7 +2,7 @@
 
 This application allows user to register and browse throught the available books. The user can add them to the cart, checkout and view booking history.
 
-This repository contains the frontend source code of the application.
+This repository contains the backend source code of the application.
 
 ## TECH STACK
 
@@ -12,7 +12,7 @@ This repository contains the frontend source code of the application.
 
 ## FRONTEND SOURCE CODE
 
-The backend code can be found in the repository
+The frontend source code can be found in the repository
 
 [https://github.com/GouthamKannan/bookstore_asp.net-frontend](https://github.com/GouthamKannan/bookstore_asp.net-frontend)
 
